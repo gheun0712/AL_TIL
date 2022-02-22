@@ -17,3 +17,6 @@ for j in range(N - K + 1):
     max_temp = max(max_temp, lst[j + K] - lst[j])
 
 print(max_temp)
+
+
+
