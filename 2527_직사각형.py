@@ -1,0 +1,22 @@
+# 2527_직사각형
+# 2022-02-25
+
+for _ in range(1, 5):
+    x1, y1, p1, q1, x2, y2, p2, q2 = map(int, input().split())
+
+    # 안 겹치는거 먼저 잡으면 나중에 뽑기 쉬움
+    if p1 < x2 or p2 < x1 or q1 < y2 or q2 < y1:
+        print('d')
+
+    elif x1 == p2 or x2 == p1:
+        if q1 == y2 or q2 == y1:
+            print('c')
+
+        else:
+            print('b')
+
+    elif q1 == y2 or q2 == y1:
+        print('b')
+
+    else:
+        print('a')
