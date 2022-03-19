@@ -1,5 +1,5 @@
 # 2468_안전영역
-# 2022-03-14
+# 2022-03-19
 
 from collections import deque
 
@@ -31,12 +31,12 @@ res = []
 for i in range(101):
     visited = [[0] * N for i in range(N)]
     cnt = 0
-
+    # 침수되는 영역은 1로 숫자 바꿔주기
     for j in range(N):
         for k in range(N):
             if num_lst[j][k] <= i:
                 visited[j][k] = 1
-
+    # BFS 탐색 후에 카운트 올려주기
     for j in range(N):
         for k in range(N):
             if visited[j][k] == 0:
