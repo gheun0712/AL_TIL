@@ -1,72 +1,74 @@
 # 3190_뱀
 # 2022-03-22
 
-def change(d, c):
+
+dx = [0, 1, 0, -1]
+dy = [1, 0, -1, 0]
+
+
+def turn(direction, c):
     if c == "L":
-        d = (d - 1) % 4
+        direction = (direction - 1) % 4
     else:
-        d = (d + 1) % 4
-    return d
+        direction = (direction + 1) % 4
+    return direction
 
 
-def move():
-    # 뱀 첫 위치
+def simulate():
+    # 뱀의 머리 위치
     x, y = 1, 1
-    # 뱀이 있는 위치는 2로 표시해줌
-    map_lst[x][y] = 2
-    # 처음엔 우측이동
-    d = 0
+    # 뱀 있는 위치 2로 표시
+    data[x][y] = 2
+    # 처음은 우측 이동
+    direction = 0
     time = 0
-    # 다음 방향 나타낼 변수
-    next = 0
+    # 다음 회전
+    next_direction = 0
     q = [(x, y)]
 
     while True:
-        for dx, dy in [(1, 0), (0, 1), (-1, 0), (0, -1)]:
-            nx = x + dx
-            ny = y + dy
+        nx = x + dx[direction]
+        ny = y + dy[direction]
 
-            if 1 <= nx < n and 1 <= ny < n and map_lst[nx][ny] != 2:
-                # 사과가 없으면 꼬리 없애기
-                if map_lst[nx][ny] == 0:
-                    map_lst[nx][ny] = 2
-                    q.append((nx, ny))
-                    nnx, nny = q.pop(0)
-                    map_lst[nnx][nny] = 0
+        if 1 <= nx <= n and 1 <= ny <= n and data[nx][ny] != 2:
+            # 사과 없으면 꼬리 빼기
+            if data[nx][ny] == 0:
+                data[nx][ny] = 2
+                q.append((nx, ny))
+                px, py = q.pop(0)
+                data[px][py] = 0
+            # 사과가 있다면 꼬리는 그대로 두기
+            if data[nx][ny] == 1:
+                data[nx][ny] = 2
+                q.append((nx, ny))
 
-                # 사과가 있으면 꼬리 남겨두기
-                if map_lst[nx][ny] == 1:
-                    map_lst[nx][ny] = 2
-                    q.append((nx,ny))
-
-            else:
-                time += 1
-                break
-
-            # 다음 위치로 머리를 이동시켜줌
-            x, y = nx, ny
+        # 벽이나 뱀의 몸통과 부딪히는 경우에는 패스패스
+        else:
             time += 1
+            break
 
-            if next < 1 and time == direction[next][0]:
-                d = change(d, map_lst[next][1])
-                next += 1
-        return time
+        # 다음 위치로 머리를 이동
+        x, y = nx, ny
+        time += 1
+        # 다음 회전으로
+        if next_direction < l and time == info_direction[next_direction][0]:
+            direction = turn(direction, info_direction[next_direction][1])
+            next_direction += 1
+    return time
 
 
 n = int(input())
 k = int(input())
-map_lst = [[0] * (n+1) for _ in range(n+1)]
-direction = []
+data = [[0] * (n + 1) for _ in range(n + 1)]
+info_direction = []
 
 for _ in range(k):
-    x, y = map(int, input().split())
-    map_lst[x][y] = 1
+    a, b = map(int, input().split())
+    data[a][b] = 1
 
 l = int(input())
 for _ in range(l):
     x, c = input().split()
-    direction.append((int(x), c))
+    info_direction.append((int(x), c))
 
-print(move())
-
-
+print(simulate())
