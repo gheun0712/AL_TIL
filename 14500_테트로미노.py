@@ -15,6 +15,9 @@ def dfs(x, y, depth, num):
         res = max(res, num)
         return
 
+    if num + 1000 * (4 - depth) < res:
+        return
+
     for i in range(4):
         nx = x + dx[i]
         ny = y + dy[i]
