@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="810b0210-52a2-44bd-bcfd-50743c4a2ca6" name="Default Changelist" comment="22-04 AL Baekjoon 14503">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AL_TIL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AL_TIL.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14889_스타트와_링크.py" beforeDir="false" afterPath="$PROJECT_DIR$/14889_스타트와_링크.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14891_톱니바퀴.py" beforeDir="false" afterPath="$PROJECT_DIR$/14891_톱니바퀴.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,6 +270,10 @@
       <workItem from="1649595617593" duration="1319000" />
       <workItem from="1649598214626" duration="578000" />
       <workItem from="1649599087711" duration="1155000" />
+      <workItem from="1649673685666" duration="2000" />
+      <workItem from="1649673730988" duration="2860000" />
+      <workItem from="1649693345119" duration="379000" />
+      <workItem from="1649768848093" duration="3416000" />
     </task>
     <task id="LOCAL-00001" summary="22-04 AL Baekjoon 14888">
       <created>1649256250150</created>
@@ -300,6 +305,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22-04 AL Baekjoon 14888" />
@@ -307,16 +313,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="22-04 AL Baekjoon 14503" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/14499____py$14500_test.coverage" NAME="14500_test Coverage Results" MODIFIED="1648568741288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/14499____py$s2__1_.coverage" NAME="s2 (1) Coverage Results" MODIFIED="1649136346656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5251_최소_이동_거리" />
     <SUITE FILE_PATH="coverage/14499____py$14888__.coverage" NAME="14888_연산자_끼워넣기 Coverage Results" MODIFIED="1649255766266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/14499____py$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1649136579929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5250_최소_비용" />
-    <SUITE FILE_PATH="coverage/14499____py$s2.coverage" NAME="s2 Coverage Results" MODIFIED="1649121097455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0329/5251_최소_이동_거리" />
     <SUITE FILE_PATH="coverage/14499____py$14889__.coverage" NAME="14889_스타트와_링크 Coverage Results" MODIFIED="1649600567479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/14499____py$s1__2_.coverage" NAME="s1 (2) Coverage Results" MODIFIED="1649131066168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5249_최소_신장_트리" />
+    <SUITE FILE_PATH="coverage/14499____py$s1__1_.coverage" NAME="s1 (1) Coverage Results" MODIFIED="1649140533855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5248_그룹_나누기" />
     <SUITE FILE_PATH="coverage/14499____py$s2__2_.coverage" NAME="s2 (2) Coverage Results" MODIFIED="1649136012296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5250_최소_비용" />
     <SUITE FILE_PATH="coverage/14499____py$14503_.coverage" NAME="14503_로봇청소기 Coverage Results" MODIFIED="1649428746586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/14499____py$s1__2_.coverage" NAME="s1 (2) Coverage Results" MODIFIED="1649131066168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5249_최소_신장_트리" />
+    <SUITE FILE_PATH="coverage/14499____py$14500_test.coverage" NAME="14500_test Coverage Results" MODIFIED="1648568741288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/14499____py$s2.coverage" NAME="s2 Coverage Results" MODIFIED="1649121097455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0329/5251_최소_이동_거리" />
     <SUITE FILE_PATH="coverage/14499____py$s3.coverage" NAME="s3 Coverage Results" MODIFIED="1649132141401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5251_최소_이동_거리" />
-    <SUITE FILE_PATH="coverage/14499____py$s1__1_.coverage" NAME="s1 (1) Coverage Results" MODIFIED="1649140533855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5248_그룹_나누기" />
-    <SUITE FILE_PATH="coverage/14499____py$s2__1_.coverage" NAME="s2 (1) Coverage Results" MODIFIED="1649136346656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5251_최소_이동_거리" />
   </component>
 </project>
