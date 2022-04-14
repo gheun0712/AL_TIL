@@ -252,6 +252,8 @@
       <workItem from="1649833840519" duration="3981000" />
       <workItem from="1649839085546" duration="33000" />
       <workItem from="1649855720228" duration="2723000" />
+      <workItem from="1649946365641" duration="166000" />
+      <workItem from="1649946543433" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="22-04 AL Baekjoon 14888">
       <created>1649256250150</created>
@@ -295,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649838415310</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="22-04 AL Baekjoon 15686">
+      <created>1649946522245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649946522245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +327,9 @@
     <MESSAGE value="22-04 AL Baekjoon 14503" />
     <MESSAGE value="22-04 AL Baekjoon 14891" />
     <MESSAGE value="22-04 AL Baekjoon 15683" />
-    <option name="LAST_COMMIT_MESSAGE" value="22-04 AL Baekjoon 15683" />
+    <MESSAGE value="22-04 AL Baekjoon 15684" />
+    <MESSAGE value="22-04 AL Baekjoon 15686" />
+    <option name="LAST_COMMIT_MESSAGE" value="22-04 AL Baekjoon 15686" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/14499____py$s1.coverage" NAME="s1 Coverage Results" MODIFIED="1649136579929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../HWS/0405/5250_최소_비용" />
