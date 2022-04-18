@@ -1,3 +1,6 @@
+# 15685_드래곤_커브
+# 2022-04-03
+
 def curve():
     for _ in range(n):
         for x, y, d, g in q:
