@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="810b0210-52a2-44bd-bcfd-50743c4a2ca6" name="Default Changelist" comment="22-04 AL Baekjoon 14503">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15686_치킨_배달.py" beforeDir="false" afterPath="$PROJECT_DIR$/15686_치킨_배달.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +254,10 @@
       <workItem from="1649855720228" duration="2723000" />
       <workItem from="1649946365641" duration="166000" />
       <workItem from="1649946543433" duration="58000" />
-      <workItem from="1650258477099" duration="4198000" />
+      <workItem from="1650258477099" duration="4729000" />
+      <workItem from="1650270602727" duration="113000" />
+      <workItem from="1650280498591" duration="184000" />
+      <workItem from="1650380864615" duration="3467000" />
     </task>
     <task id="LOCAL-00001" summary="22-04 AL Baekjoon 14888">
       <created>1649256250150</created>
@@ -320,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650260649505</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="22-04 AL Baekjoon 15686">
+      <created>1650262785867</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650262785867</updated>
+    </task>
+    <task id="LOCAL-00011" summary="22-04 AL Baekjoon 15686">
+      <created>1650262808480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650262808480</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,10 +359,10 @@
     <MESSAGE value="22-04 AL Baekjoon 14503" />
     <MESSAGE value="22-04 AL Baekjoon 14891" />
     <MESSAGE value="22-04 AL Baekjoon 15683" />
-    <MESSAGE value="22-04 AL Baekjoon 15686" />
     <MESSAGE value="22-04 AL Baekjoon 15685" />
     <MESSAGE value="22-04 AL Baekjoon 15684" />
-    <option name="LAST_COMMIT_MESSAGE" value="22-04 AL Baekjoon 15684" />
+    <MESSAGE value="22-04 AL Baekjoon 15686" />
+    <option name="LAST_COMMIT_MESSAGE" value="22-04 AL Baekjoon 15686" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/14891__py$15684__.coverage" NAME="15684_사다리_조작 Coverage Results" MODIFIED="1650259608452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
