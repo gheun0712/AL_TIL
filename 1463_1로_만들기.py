@@ -1,14 +1,15 @@
-N = int(input())
-dp_list = [0, 0, 1, 1]
+import sys
 
-for i in range(4, N + 1):
+input = sys.stdin.readline
 
-    dp_list.append(dp_list[i - 1] + 1)
+n = int(input())
+d = [0] * 1000002
 
-    if i % 2 == 0:
-        dp_list[i] = min(dp_list[i], dp_list[i // 2] + 1)
-
+for i in range(2, n + 1):
+    d[i] = d[i - 1] + 1
     if i % 3 == 0:
-        dp_list[i] = min(dp_list[i], dp_list[i // 3] + 1)
+        d[i] = min(d[i // 3] + 1, d[i])
+    if i % 2 == 0:
+        d[i] = min(d[i // 2] + 1, d[i])
 
-print(dp_list[-1])
+print(d[n])
