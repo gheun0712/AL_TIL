@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="810b0210-52a2-44bd-bcfd-50743c4a2ca6" name="Default Changelist" comment="22-04 AL Baekjoon 14503">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="810b0210-52a2-44bd-bcfd-50743c4a2ca6" name="Default Changelist" comment="22-04 AL Baekjoon 14503" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,6 +257,7 @@
       <workItem from="1650280498591" duration="184000" />
       <workItem from="1650380864615" duration="4699000" />
       <workItem from="1650386012031" duration="77000" />
+      <workItem from="1650456910341" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="22-04 AL Baekjoon 14888">
       <created>1649256250150</created>
@@ -344,7 +343,42 @@
       <option name="project" value="LOCAL" />
       <updated>1650384702572</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="22-04 AL Baekjoon 100">
+      <created>1650456960328</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456960328</updated>
+    </task>
+    <task id="LOCAL-00014" summary="22-04 AL Baekjoon 17219">
+      <created>1650456972530</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456972530</updated>
+    </task>
+    <task id="LOCAL-00015" summary="22-04 AL Baekjoon 17626">
+      <created>1650456992034</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650456992034</updated>
+    </task>
+    <task id="LOCAL-00016" summary="22-04 AL Baekjoon 1463">
+      <created>1650457087887</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650457087887</updated>
+    </task>
+    <task id="LOCAL-00017" summary="22-04 AL Baekjoon 1463">
+      <created>1650457221690</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650457221690</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +405,11 @@
     <MESSAGE value="22-04 AL Baekjoon 15684" />
     <MESSAGE value="22-04 AL Baekjoon 15686" />
     <MESSAGE value="22-04 AL Baekjoon 16234" />
-    <option name="LAST_COMMIT_MESSAGE" value="22-04 AL Baekjoon 16234" />
+    <MESSAGE value="22-04 AL Baekjoon 1003" />
+    <MESSAGE value="22-04 AL Baekjoon 17219" />
+    <MESSAGE value="22-04 AL Baekjoon 17626" />
+    <MESSAGE value="22-04 AL Baekjoon 1463" />
+    <option name="LAST_COMMIT_MESSAGE" value="22-04 AL Baekjoon 1463" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/14891__py$15684__.coverage" NAME="15684_사다리_조작 Coverage Results" MODIFIED="1650259608452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
