@@ -12,7 +12,7 @@ def solution(board):
         
         while q:
             a, b = q.popleft()
-            visited[a][b] = 1
+            # visited[a][b] = 1
             for i in range(8):
                 nx = dx[i] + a
                 ny = dy[i] + b
@@ -20,6 +20,7 @@ def solution(board):
                 if 0 <= nx < depth and 0 <= ny < depth and visited[nx][ny] != 1:
                     if board[nx][ny] == 1:
                         q.append((nx, ny))
+                        visited[nx][ny] += 1
                     else:
                         board[nx][ny] = 2
     
